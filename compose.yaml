@@ -1,29 +1,20 @@
-﻿version: '3.8'
+﻿
 services:
   sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-latest
+    image: mcr.microsoft.com/mssql/server
     container_name: sqlserver
     environment:
       ACCEPT_EULA: "Y"
-      SA_PASSWORD: "YourSecurePassword123!"
+      MSSQL_SA_PASSWORD: "1q2w3e4r@#$"
+      MSSQL_TCP_PORT: 1433
     ports:
-      - "1434:1433" # Porta mapeada (caso a 1433 já esteja em uso)
-    volumes:
-      - sql_data:/var/opt/mssql
-      - ./init-sql:/docker-entrypoint-initdb.d # Incluindo o volume com scripts de inicialização
-    networks:
-      - app-network
+      - "1433:1433"
 
   webapi:
     build:
       context: .
       dockerfile: src/WebApi/Dockerfile
-    networks:
-      - app-network
 
 networks:
   app-network:
     driver: bridge
-
-volumes:
-  sql_data:

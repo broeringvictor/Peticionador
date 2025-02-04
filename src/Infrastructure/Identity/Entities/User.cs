@@ -1,12 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
-namespace Domain.Entities.Account;
+namespace Infrastructure.Identity.Entities;
 
-public class User
+public class User : IdentityUser
 {
-    [Key]
-    public Guid Id { get; set; }
-
     [Required(ErrorMessage = "[UsERO1] O campo Nome Completo é obrigatório")]
     [Length(8, 100, ErrorMessage = "[UsERO2] O campo Nome Completo deve ter entre 8 e 100 caracteres")]
     public string Name { get; set; }

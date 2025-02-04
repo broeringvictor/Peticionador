@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Domain.Entities.Account;
+
 
 namespace Domain.Entities.Tokens;
 
@@ -14,11 +14,10 @@ public class TokensUsage
 
     public DateTime Date { get; set; }
 
-    public required User UserId { get; set; }
+    public required string UserId { get; set; }
 
     public int? TokenInput { get; set; }
 
     public int? TokenOutput { get; set; }
-
 
 }

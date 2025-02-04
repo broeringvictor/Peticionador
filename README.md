@@ -25,6 +25,3 @@ Importância: Garante o polimento do documento, reduzindo inconsistências e err
 5. Agente de Consolidação e Formatação Final
 Função: Consolida o texto revisado, aplicando formatações padronizadas e finalizando o documento para entrega.
 Importância: Garante que a petição tenha um padrão profissional e esteja pronta para uso em processos jurídicos.
-
-6. Petição Pronta
-Resultado Final: A petição é entregue pronta para uso, com alta qualidade e de acordo com as exigências formais do direito civil.

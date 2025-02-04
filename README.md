@@ -1,4 +1,6 @@
 # Gerador de Petições Cíveis com IA e Automação
+## Projeto está na etapa de planejamento.
+
 Este projeto visa desenvolver um gerador automatizado de petições cíveis utilizando agentes de Inteligência Artificial (IA) e automações para otimizar o processo de criação de documentos jurídicos. A solução é baseada em uma arquitetura modular composta por agentes especializados, cada um desempenhando funções específicas dentro do fluxo de trabalho.
 
 Além disso, cada etapa do processo será propositalmente monitorada por um humano, com o intuito de manter a qualidade do conteúdo gerado e reduzir custos operacionais. Essa supervisão humana assegura que o resultado final atenda aos padrões profissionais exigidos na prática jurídica, enquanto utiliza as automações para diminuir o esforço manual nas tarefas repetitivas.

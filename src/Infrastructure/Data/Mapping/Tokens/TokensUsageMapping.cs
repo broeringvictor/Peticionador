@@ -23,7 +23,10 @@ namespace Infrastructure.Data.Mapping.Tokens
             builder.Property(t => t.TokenUsage); // pode ser null
 
             builder.Property(t => t.Date)
-                .IsRequired();
+                .IsRequired()
+                .HasColumnType("date")
+                .HasDefaultValueSql("getdate()");
+
 
             builder.Property(t => t.UserId)
                 .IsRequired();

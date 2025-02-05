@@ -1,5 +1,7 @@
 ﻿using Domain;
 using Infrastructure.Data;
+using Infrastructure.Identity.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace WebApi.Extensions;
@@ -19,11 +21,30 @@ public static class BuilderExtension
 
     private static void AddDatabase(this WebApplicationBuilder builder)
     {
-        builder.Services.AddDbContext<AppDbContext>(x =>
-            x.UseSqlServer(
+        // Configuração de DbContext e Identity
+        builder.Services.AddDbContext<AppDbContext>(options =>
+            options.UseSqlServer(
                 Configurations.Database.ConnectionString,
                 b => b.MigrationsAssembly("WebApi")));
+
+        builder.Services.AddIdentity<User, IdentityRole>()
+            .AddEntityFrameworkStores<AppDbContext>()
+            .AddDefaultTokenProviders();
+
+
+        builder.Services.AddAuthorization(options =>
+        {
+            options.AddPolicy("DefaultPolicy", policy =>
+            {
+                policy.RequireAuthenticatedUser();
+            });
+        });
     }
+
+
+
+
+
 
 
 

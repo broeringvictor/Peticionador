@@ -1,6 +1,20 @@
-﻿services:
+﻿
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server
+    container_name: sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "1q2w3e4r@#$"
+      MSSQL_TCP_PORT: 1433
+    ports:
+      - "1433:1433"
+
   webapi:
-    image: webapi
     build:
       context: .
       dockerfile: src/WebApi/Dockerfile
+
+networks:
+  app-network:
+    driver: bridge

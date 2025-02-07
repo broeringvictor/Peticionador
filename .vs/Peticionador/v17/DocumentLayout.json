@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\500\\Peticionador\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F623CB2-43D8-4EEE-A345-3CCE38D76B97}|src\\WebApi\\WebApi.csproj|c:\\dev\\500\\peticionador\\src\\webapi\\controllers\\tokensusagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F623CB2-43D8-4EEE-A345-3CCE38D76B97}|src\\WebApi\\WebApi.csproj|solutionrelative:src\\webapi\\controllers\\tokensusagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F623CB2-43D8-4EEE-A345-3CCE38D76B97}|src\\WebApi\\WebApi.csproj|c:\\dev\\500\\peticionador\\src\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F623CB2-43D8-4EEE-A345-3CCE38D76B97}|src\\WebApi\\WebApi.csproj|solutionrelative:src\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokensUsagesController.cs",
+              "DocumentMoniker": "C:\\dev\\500\\Peticionador\\src\\WebApi\\Controllers\\TokensUsagesController.cs",
+              "RelativeDocumentMoniker": "src\\WebApi\\Controllers\\TokensUsagesController.cs",
+              "ToolTip": "C:\\dev\\500\\Peticionador\\src\\WebApi\\Controllers\\TokensUsagesController.cs",
+              "RelativeToolTip": "src\\WebApi\\Controllers\\TokensUsagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:19:27.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebApi",
+              "DocumentMoniker": "C:\\dev\\500\\Peticionador\\src\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "src\\WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\dev\\500\\Peticionador\\src\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "src\\WebApi\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-04T18:37:55.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1167235513:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1909563448:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

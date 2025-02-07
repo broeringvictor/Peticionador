@@ -1,6 +1,5 @@
 using System.Reflection;
 using Domain.Entities.Tokens;
-using Infrastructure.Identity.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

@@ -9,6 +9,7 @@
     <ItemGroup>
       <Folder Include="Enums\" />
       <Folder Include="SharedContext\Extensions\" />
+      <Folder Include="UseCases\Identity\" />
     </ItemGroup>
 
     <ItemGroup>

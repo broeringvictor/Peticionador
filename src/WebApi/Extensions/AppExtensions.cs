@@ -19,6 +19,7 @@ public static class AppExtensions
         }
 
         app.MapOpenApi();
+        app.MapControllers();
 
         if (app.Environment.IsDevelopment())
         {
